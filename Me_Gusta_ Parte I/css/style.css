@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.contenedor{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.Contenido1{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.someuser{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bnlike{
+    margin: 10px;
+    width: 80px; 
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgba(228, 239, 74, 0.797);
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 8px 5px 1px black; 
+}
