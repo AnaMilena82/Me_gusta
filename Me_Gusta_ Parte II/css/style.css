@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+}
+.Feed{
+    text-align: center;
+    font-size: 30px;
+}
+.contenedor{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: space-around;
+    justify-content: center;
+}
+.unioncontenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.contenedorizquierdo{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+.contenedorderecho{
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    
+}
+img{
+    width: 80px;
+    
+}
+
+.users{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.frames{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.contenidousers{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bnlike{
+    margin: 10px;
+    width: 80px; 
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgba(228, 239, 74, 0.797);
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 8px 5px 1px black; 
+}
+.subrayado{
+    color:blue;
+    text-decoration:underline;
+}
